@@ -6,8 +6,8 @@ const taxon = new mongoose.Schema({
 
 taxon.statics.format = (taxon) => {
   return {
-    id: taxa._id,
-    name: taxa.name
+    id: taxon._id,
+    name: taxon.name
   }
 }
 
